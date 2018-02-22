@@ -1,45 +1,41 @@
 from time import sleep
-print("welcome to (pending title)!!")               #print("")
+print("Welcome to AskTessa©!!")               #print("")
 sleep(1)
-print("as you probably allready know, this is a program to help you find inspiration in school and while doing homework by telling you what it is usefull for")
+print("As you probably already know, this is a program to help you find inspiration in school and while doing homework by telling you what it is usefull for")
 sleep(1)
-print("so no furder addue, lets get into it!!!")
+print("So no further addue, lets get into it!!!")
 sleep(1)
-print("here is an example on how to use it and how it works and looks like")
+print("e.g; Have you ever been in a class, wondering what good will this do me in the?")
 sleep(1.5)
-print("for purposes of this example choose maths and algebra, ok?!")
+print("This programme will tell you if what you're learning has any real world uses.")
 sleep(.5)
+print("REMEMBER all choices have to be made with capital letters.")
 print("lets start!!!")
 
 
 subjects=["Religion", "History", "Irish", "Science", "Maths", "English", "Geography", "Spanish", "German", "French", "Business", "Coding", "Homec", "Woodwork", "T.G", "P.E", "Art", "Music",]
 
-#EXAMPLE:
-print("what subject would you like to know about?")
-sleep(1)
-print("(remember to choose maths and algebra!!)")
-sleep(1)
-
-print("this is how the program looks like:")
-sleep(1)
-
-print("So, what subject do you want to learn about")
+print("So, what subject do you want to learn about?")
 subject=input()
+sleep(1)
 
 if subject=="Maths":
-    print("ok good!")
+    print("What would you like to know on the subject of maths!")
+    sleep(2)
 
 else:
     print("ERROR!")
-
-
-
-print("ok. so what topic do you want to know about")
 
 topic=input()
 
-if topic=="algebra":
-    print("ok well done!")
+if topic=="Algebra":
+    print(1)
+    print("Jobs requiring a knowledge of Algebra include; Market Research Analyst, Animation, Industrial Engineer!")
+
+elif topic=="Trigonomatry":
+    sleep(1)
+    print("Jobs requiring a knowledge of Trigonometry include; Architect, Navigator, Radiologist")
 
 else:
     print("ERROR!")
+
